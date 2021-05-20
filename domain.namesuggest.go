@@ -9,12 +9,23 @@ type NameSuggestResponse struct {
 }
 
 type NameSuggestResponseAttributes struct {
-	Lookup                  NameSuggestItems `json:"lookup"`
-	PersonalNames           NameSuggestItems `json:"personal_names"`
-	Premium                 NameSuggestItems `json:"premium"`
-	PremiumBrokeredTransfer NameSuggestItems `json:"premium_brokered_transfer"`
-	PremiumMakeOffer        NameSuggestItems `json:"premium_make_offer"`
-	Suggestion              NameSuggestItems `json:"suggestion"`
+	Lookup                  NameSuggestItems                `json:"lookup"`
+	PersonalNames           NameSuggestItems                `json:"personal_names"`
+	Premium                 NameSuggestItems                `json:"premium"`
+	PremiumBrokeredTransfer PremiumBrokeredTransferResponse `json:"premium_brokered_transfer"`
+	PremiumMakeOffer        PremiumMakeOfferResponse        `json:"premium_make_offer"`
+	Suggestion              NameSuggestItems                `json:"suggestion"`
+}
+
+type PremiumMakeOfferResponse struct {
+	Count        string            `json:"count"`
+	ResponseText string            `json:"response_text"`
+	ResponseCode string            `json:"response_code"`
+	Items        []NameSuggestItem `json:"items"`
+}
+
+type PremiumBrokeredTransferResponse struct {
+	PremiumMakeOfferResponse
 }
 
 type NameSuggestItems struct {
@@ -27,11 +38,11 @@ type NameSuggestItems struct {
 
 type NameSuggestItem struct {
 	Domain             string `json:"domain"`
-	PremiumPrice       string `json:"price"`
+	Price              string `json:"price"`
 	Status             string `json:"status"`
 	HasClaim           Bool   `json:"has_claim"`
 	Reason             string `json:"reason"`
-	ThirdPartyOfferUrl string `json:"third_party_offer_url"`
+	ThirdPartyOfferUrl URL    `json:"third_party_offer_url"`
 }
 
 // Requests
@@ -42,7 +53,7 @@ type NameSuggestRequest struct {
 
 type NameSuggestRequestAttributes struct {
 	Languages          []string                   `json:"languages,omitempty"`
-	MaxWaitTime        int                        `json:"max_wait_time,omitempty"`
+	MaxWaitTime        string                     `json:"max_wait_time,omitempty"`
 	SearchKey          string                     `json:"search_key,omitempty"`
 	SearchString       string                     `json:"searchstring,omitempty"`
 	ServiceOverride    NameSuggestServiceOverride `json:"service_override,omitempty"`
@@ -54,7 +65,7 @@ type NameSuggestRequestAttributes struct {
 type NameSuggestServiceOverride struct {
 	Lookup        NameSuggestLookup     `json:"lookup,omitempty"`
 	PersonalNames []string              `json:"personal_names,omitempty"`
-	Premium       []string              `json:"premium,omitempty"`
+	Premium       NameSuggestPremium    `json:"premium,omitempty"`
 	Suggestion    NameSuggestSuggestion `json:"suggestion,omitempty"`
 }
 
@@ -65,8 +76,18 @@ type NameSuggestSuggestion struct {
 	TLDs     []string `json:"tlds,omitempty"`
 }
 
+type NameSuggestPremium struct {
+	Maximum  string   `json:"maximum,omitempty"`
+	PriceMax string   `json:"price_max,omitempty"`
+	PriceMin string   `json:"price_min,omitempty"`
+	TLDs     []string `json:"tlds,omitempty"`
+}
+
 type NameSuggestLookup struct {
-	NameSuggestSuggestion
+	Maximum    string   `json:"maximum,omitempty"`
+	PriceMax   string   `json:"price_max,omitempty"`
+	PriceMin   string   `json:"price_min,omitempty"`
+	TLDs       []string `json:"tlds,omitempty"`
 	NoCacheTld []string `json:"no_cache_tlds,omitempty"`
 }
 

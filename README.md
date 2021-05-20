@@ -6,7 +6,7 @@ This is Work under progress, please do not use this repo.
 ## Supported API calls
 ### LOOKUP COMMANDS
 - [x] lookup (domain)
-- [ ] name_suggest (domain)
+- [x] name_suggest (domain)
 - [ ] get_domains_contacts (domain)
 
 ### PROVISIONING COMMANDS

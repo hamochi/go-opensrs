@@ -1,6 +1,7 @@
 package opensrs
 
 import (
+	"bytes"
 	"encoding/json"
 	"encoding/xml"
 	"errors"
@@ -164,7 +165,13 @@ func FromXml(b []byte, v interface{}) error {
 		return err
 	}
 	m := q.Body.DataBlock.decode()
-	jsonString, _ := json.Marshal(m)
+
+	j := &bytes.Buffer{}
+	enc := json.NewEncoder(j)
+	enc.SetEscapeHTML(false)
+	enc.Encode(m)
+	jsonString := j.Bytes()
+	//jsonString, _ := json.Marshal(m)
 
 	return json.Unmarshal(jsonString, &v)
 

@@ -8,9 +8,11 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"html"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"strings"
 )
 
 const (
@@ -68,7 +70,7 @@ func (c *Client) NewRequest(method, path string, payload interface{}) (*http.Req
 		body.Write(xml)
 
 		if c.Debug {
-			log.Printf("Requst sent: %s\n", xmlHeader+string(xml))
+			log.Printf("Request sent: %s\n", xmlHeader+string(xml))
 		}
 	}
 
@@ -170,6 +172,32 @@ func (b *Bool) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
+func parseBool(value string) (b bool, err error) {
+	switch value {
+	case `"1"`:
+		b = true
+	case `"0"`:
+		b = false
+	default:
+		err = fmt.Errorf("invalid value for bool: %s", value)
+	}
+
+	return
+}
+
+type URL string
+
+func (u *URL) UnmarshalJSON(data []byte) error {
+	value := string(data)
+	value = strings.Replace(value, " ", "", -1)
+	value = strings.Replace(value, "\\n", "", -1)
+	value = html.UnescapeString(value)
+	value = strings.Trim(value, `"`)
+	//value := strings.TrimSpace(string(data))
+	*u = URL(value)
+	return nil
+}
+
 //func (b *Bool) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 //	var el *string
 //	if err := d.DecodeElement(&el, &start); err != nil {
@@ -188,16 +216,3 @@ func (b *Bool) UnmarshalJSON(data []byte) error {
 //	*b = Bool(value)
 //	return nil
 //}
-
-func parseBool(value string) (b bool, err error) {
-	switch value {
-	case `"1"`:
-		b = true
-	case `"0"`:
-		b = false
-	default:
-		err = fmt.Errorf("invalid value for bool: %s", value)
-	}
-
-	return
-}

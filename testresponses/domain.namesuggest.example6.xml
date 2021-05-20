@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding="UTF-8" standalone="no"?>
+<OPS_envelope>
+    <header>
+        <version>0.9</version>
+    </header>
+    <body>
+        <data_block>
+            <dt_assoc>
+                <item key="protocol">XCP</item>
+                <item key="search_key">Ko1fN8Fnw1qaCuFE1tc1daCaT1E</item>
+                <item key="response_code">200</item>
+                <item key="is_success">1</item>
+                <item key="response_text">Command completed successfully</item>
+                <item key="is_search_completed">0</item>
+                <item key="action">REPLY</item>
+                <item key="attributes">
+                    <dt_assoc>
+                        <item key="lookup">
+                            <dt_assoc>
+                                <item key="count">8</item>
+                                <item key="response_text">Command completed successfully.</item>
+                                <item key="response_code">200</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.com</item>
+                                                <item key="status">taken</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.net</item>
+                                                <item key="status">taken</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.in</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="domain">search-string.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="5">
+                                            <dt_assoc>
+                                                <item key="domain">search-string.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="6">
+                                            <dt_assoc>
+                                                <item key="domain">search-string.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="7">
+                                            <dt_assoc>
+                                                <item key="domain">search-string.in</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                                <item key="is_success">1</item>
+                            </dt_assoc>
+                        </item>
+                        <item key="personal_names">
+                            <dt_assoc>
+                                <item key="count">5</item>
+                                <item key="response_text">Command completed successfully.</item>
+                                <item key="response_code">200</item>
+                                <item key="is_success">1</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="domain">search.stringham.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="domain">search.stringhini.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="domain">search.stringfield.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="domain">search.stringer.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="domain">search.stringfield.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                            </dt_assoc>
+                        </item>
+                        <item key="suggestion">
+                            <dt_assoc>
+                                <item key="count">48</item>
+                                <item key="response_text">Command Successful</item>
+                                <item key="response_code">200</item>
+                                <item key="is_success">1</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringonline.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringonline.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="5">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="6">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="7">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="8">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringonline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="9">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringonline.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="10">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringonline.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="11">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="12">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="13">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="14">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="15">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="16">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="17">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-online.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="18">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="19">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-online.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="20">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-online.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="21">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="22">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="23">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstringonline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="24">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstringonline.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="25">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstringonline.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="26">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="27">
+                                            <dt_assoc>
+                                                <item key="domain">the-searchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="28">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringgroup.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="29">
+                                            <dt_assoc>
+                                                <item key="domain">the-searchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="30">
+                                            <dt_assoc>
+                                                <item key="domain">mysearchstringgroup.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="31">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringshop.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="32">
+                                            <dt_assoc>
+                                                <item key="domain">the-searchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="33">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring-online.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="34">
+                                            <dt_assoc>
+                                                <item key="domain">topsearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="35">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringshop.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="36">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring-online.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="37">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringshop.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="38">
+                                            <dt_assoc>
+                                                <item key="domain">my-searchstring-online.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="39">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-group.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="40">
+                                            <dt_assoc>
+                                                <item key="domain">topsearchstring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="41">
+                                            <dt_assoc>
+                                                <item key="domain">topsearchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="42">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstringonline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="43">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-group.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="44">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring-group.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="45">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstringonline.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="46">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchstringonline.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="47">
+                                            <dt_assoc>
+                                                <item key="domain">thesearchstringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                            </dt_assoc>
+                        </item>
+                    </dt_assoc>
+                </item>
+            </dt_assoc>
+        </data_block>
+    </body>
+</OPS_envelope>
