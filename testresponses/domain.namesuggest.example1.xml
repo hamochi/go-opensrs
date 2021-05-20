@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE OPS_envelope SYSTEM "ops.dtd">
+<OPS_envelope>
+    <header>
+        <version>0.9</version>
+    </header>
+    <body>
+        <data_block>
+            <dt_assoc>
+                <item key="request_response_time">0.693</item>
+                <item key="response_code">200</item>
+                <item key="action">REPLY</item>
+                <item key="response_text">Command completed successfully</item>
+                <item key="attributes">
+                    <dt_assoc>
+                        <item key="suggestion">
+                            <dt_assoc>
+                                <item key="is_success">1</item>
+                                <item key="response_text">Command Successful</item>
+                                <item key="count">96</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">queststring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="domain">homesearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="domain">findstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="5">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="6">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="7">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="8">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestfindstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="9">
+                                            <dt_assoc>
+                                                <item key="domain">searchlinegroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="10">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findstringgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="11">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="12">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="13">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">askstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="14">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="15">
+                                            <dt_assoc>
+                                                <item key="domain">realsearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="16">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringgroup.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="17">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchstringgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="18">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchstringshop.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="19">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchline.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="20">
+                                            <dt_assoc>
+                                                <item key="domain">homefindstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="21">
+                                            <dt_assoc>
+                                                <item key="domain">find-string.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="22">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchthread.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="23">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findline.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="24">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">queststring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="25">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartline.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="26">
+                                            <dt_assoc>
+                                                <item key="domain">findheartstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="27">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="28">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchthread.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="29">
+                                            <dt_assoc>
+                                                <item key="domain">queststring.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="30">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchthread.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="31">
+                                            <dt_assoc>
+                                                <item key="domain">bestfindline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="32">
+                                            <dt_assoc>
+                                                <item key="domain">bestqueststring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="33">
+                                            <dt_assoc>
+                                                <item key="domain">searchthreadgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="34">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findlinegroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="35">
+                                            <dt_assoc>
+                                                <item key="domain">queststringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="36">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="37">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="38">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">besthomesearchstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="39">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchstringgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="40">
+                                            <dt_assoc>
+                                                <item key="domain">best-search-string.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="41">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">search-string-group.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="42">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchline.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="43">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestfindstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="44">
+                                            <dt_assoc>
+                                                <item key="domain">searchlinegroup.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="45">
+                                            <dt_assoc>
+                                                <item key="domain">findstringgroup.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="46">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="47">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchheartstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="48">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartstringgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="49">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findcord.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="50">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">questthread.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="51">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchline.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="52">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestfindstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="53">
+                                            <dt_assoc>
+                                                <item key="domain">realsearchline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="54">
+                                            <dt_assoc>
+                                                <item key="domain">realfindstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="55">
+                                            <dt_assoc>
+                                                <item key="domain">searchlinegroup.net</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="56">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findstringgroup.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="57">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchlinegroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="58">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestfindstringgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="59">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchlineshop.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="60">
+                                            <dt_assoc>
+                                                <item key="domain">findstringshop.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="61">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchthread.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="62">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homefindline.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="63">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homequeststring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="64">
+                                            <dt_assoc>
+                                                <item key="domain">propertysearchstring.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="65">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">search-thread.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="66">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">quest-string.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="67">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchcord.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="68">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findthread.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="69">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">askstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="70">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">questheartstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="71">
+                                            <dt_assoc>
+                                                <item key="domain">findheartline.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="72">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartthread.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="73">
+                                            <dt_assoc>
+                                                <item key="domain">realsearchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="74">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">home-search-string.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="75">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestsearchstringgroup.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="76">
+                                            <dt_assoc>
+                                                <item key="domain">searchstringshop.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="77">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">homesearchline.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="78">
+                                            <dt_assoc>
+                                                <item key="domain">homefindstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="79">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchkitestring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="80">
+                                            <dt_assoc>
+                                                <item key="domain">search-line.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="81">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">find-string.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="82">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchcord.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="83">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findthread.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="84">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">askstring.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="85">
+                                            <dt_assoc>
+                                                <item key="domain">bestsearchcord.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="86">
+                                            <dt_assoc>
+                                                <item key="domain">bestfindthread.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="87">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestquestline.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="88">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">bestaskstring.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="89">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchcordgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="90">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findthreadgroup.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="91">
+                                            <dt_assoc>
+                                                <item key="domain">questlinegroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="92">
+                                            <dt_assoc>
+                                                <item key="domain">askstringgroup.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="93">
+                                            <dt_assoc>
+                                                <item key="domain">search-heart-string.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="94">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchheartline.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="95">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">findheartstring.org</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                                <item key="response_code">200</item>
+                            </dt_assoc>
+                        </item>
+                        <item key="personal_names">
+                            <dt_assoc>
+                                <item key="response_text">Command completed successfully.</item>
+                                <item key="is_success">1</item>
+                                <item key="items">
+                                    <dt_array>
+                                    </dt_array>
+                                </item>
+                                <item key="response_code">200</item>
+                                <item key="count">0</item>
+                            </dt_assoc>
+                        </item>
+                        <item key="premium">
+                            <dt_assoc>
+                                <item key="is_success">1</item>
+                                <item key="response_text">Command Successful</item>
+                                <item key="count">13</item>
+                                <item key="response_code">200</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">searchstring.net</item>
+                                                <item key="price">5499</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="price">1995</item>
+                                                <item key="domain">seriessearch.com</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">3295</item>
+                                                <item key="domain">searchlinedatabase.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">2888</item>
+                                                <item key="domain">searchcordblood.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">cordbloodsearch.com</item>
+                                                <item key="price">3888</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="5">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">1488</item>
+                                                <item key="domain">seriesclick.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="6">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">3795</item>
+                                                <item key="domain">combline.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="7">
+                                            <dt_assoc>
+                                                <item key="domain">searchcord.com</item>
+                                                <item key="price">2450</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="8">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">fibersearch.com</item>
+                                                <item key="price">3395</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="9">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">tiesearch.com</item>
+                                                <item key="price">279</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="10">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">3904</item>
+                                                <item key="domain">lineask.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="11">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">3329</item>
+                                                <item key="domain">yarnsearch.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="12">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="price">2984</item>
+                                                <item key="domain">asklines.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                            </dt_assoc>
+                        </item>
+                        <item key="lookup">
+                            <dt_assoc>
+                                <item key="response_code">200</item>
+                                <item key="items">
+                                    <dt_array>
+                                        <item key="0">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.com</item>
+                                                <item key="status">taken</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="1">
+                                            <dt_assoc>
+                                                <item key="domain">searchstring.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="2">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">search-string.com</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="3">
+                                            <dt_assoc>
+                                                <item key="status">available</item>
+                                                <item key="domain">search-string.net</item>
+                                            </dt_assoc>
+                                        </item>
+                                        <item key="4">
+                                            <dt_assoc>
+                                                <item key="domain">search-string.org</item>
+                                                <item key="status">available</item>
+                                            </dt_assoc>
+                                        </item>
+                                    </dt_array>
+                                </item>
+                                <item key="count">5</item>
+                                <item key="response_text">Command completed successfully.</item>
+                                <item key="is_success">1</item>
+                            </dt_assoc>
+                        </item>
+                    </dt_assoc>
+                </item>
+                <item key="is_search_completed">1</item>
+                <item key="protocol">XCP</item>
+                <item key="is_success">1</item>
+            </dt_assoc>
+        </data_block>
+    </body>
+</OPS_envelope>
